@@ -12,3 +12,13 @@ Promise.resolve().then(() => setTimeout(() => {
         }));
     }));
 }));
+
+// correct:
+2
+1
+4
+3
+6
+5
+8
+7
