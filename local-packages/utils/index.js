@@ -11,7 +11,7 @@ module.exports = {
         return a*b;
     },
     
-    subract(a, b) {
+    subtract(a, b) {
         return a/b;
     }
 }
