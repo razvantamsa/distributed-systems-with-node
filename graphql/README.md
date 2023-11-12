@@ -1,0 +1,1 @@
+fastify version 3 is compatible with gql
