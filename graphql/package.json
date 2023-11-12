@@ -4,13 +4,15 @@
   "description": "",
   "main": "consumer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "producer": "nodemon producer/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fastify": "^3.29.5",
-    "fastify-gql": "^5.8.2"
+    "fastify-gql": "^5.8.2",
+    "nodemon": "^3.0.1"
   }
 }

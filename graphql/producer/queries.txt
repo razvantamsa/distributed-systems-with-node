@@ -1,0 +1,16 @@
+QUERY EXAMPLE - 1
+#############################
+query {
+	pid,
+  recipe(id: 42) {
+    id,
+    name,
+    steps,
+    ingredients {
+      id,
+      name,
+      quantity
+    }
+  }
+}
+#############################
